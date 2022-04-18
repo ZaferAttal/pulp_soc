@@ -66,6 +66,7 @@ jtag_pulp:
   commit: v0.1
   domain: [soc]
 cv32e40p:
+  commit: master
   server: https://github.com
   group:  ZaferAttal
   domain: [cluster, soc]
