@@ -67,7 +67,8 @@ jtag_pulp:
   domain: [soc]
 cv32e40p:
   commit: test
-  group: ZaferAttal
+  server: https://github.com
+  group:  ZaferAttal
   domain: [cluster, soc]
 ibex:
   commit: pulpissimo-v6.1.1
