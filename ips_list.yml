@@ -65,8 +65,8 @@ fpnew:
 jtag_pulp:
   commit: v0.1
   domain: [soc]
-cv32e40p:
-  commit: master
+cv32e40p_Zafer:
+  commit: v1.0.0
   server: https://github.com
   group:  ZaferAttal
   domain: [cluster, soc]
