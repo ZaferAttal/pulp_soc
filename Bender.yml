@@ -30,7 +30,7 @@ dependencies:
   cluster_interconnect:   { git: "https://github.com/pulp-platform/cluster_interconnect.git", version: 1.1.1 }
   fpnew:                  { git: "https://github.com/pulp-platform/fpnew.git", version: 0.6.6 }
   jtag_pulp:              { git: "https://github.com/pulp-platform/jtag_pulp.git", rev: "v0.1" }
-  cv32e40p:               { git: "https://github.com/ZaferAttal/cv32e40p.git", version: 1.1}
+  cv32e40p:               { git: "https://github.com/pulp-platform/cv32e40p.git", rev: "pulpissimo-v4.0.0"}
   ibex:                   { git: "https://github.com/pulp-platform/ibex.git", rev: "pulpissimo-v6.1.1" }
   scm:                    { git: "https://github.com/pulp-platform/scm.git", version: 1.0.1}
   generic_FLL:            { git: "https://github.com/pulp-platform/generic_FLL.git", rev: "1c92dc73a940392182fd4cb7b86f35649b349595" }
@@ -48,6 +48,7 @@ dependencies:
   hwpe-mac-engine:        { git: "https://github.com/pulp-platform/hwpe-mac-engine.git", version: 1.3.3 }
   riscv-dbg:              { git: "https://github.com/pulp-platform/riscv-dbg.git", version: 0.5.0 }
   register_interface:     { git: "https://github.com/pulp-platform/register_interface.git", version: 0.3.1 }
+  dummy_vip:              { git: "https://github.com/pulp-training/dummy_vip.git", rev: "master" }
 
 sources:
   # pulp_soc
